@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    background-color: white;
+    height: 100vh;
+    width: 900px;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 30px 0 20px rgb(0, 0, 0, 20%), 
+    -30px 0 20px rgb(0, 0, 0, 20%);
+}
+
+.text1 {
+    height: auto;
+    width: 200px;
+    text-align: center;
+    text-shadow: -3px -3px 3px gray;
+}
+
+.text2 {
+    text-align: center;
+    color: silver;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn {
+    border: 1px solid;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border-color: red;
+    text-decoration: none;
+    color: black;
+}
+
+.right {
+    background-image: url(images/photo1.jfif);
+    height: 100vh;
+    width: 600px;
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.all-image {
+    background-color: white;
+    height: auto;
+    width: 900px;
+    margin: 0 auto 50px auto;
+    padding-bottom: 10px;
+    box-shadow: 30px 3px 20px rgb(0, 0, 0, 20%), -30px 30px 20px rgb(0, 0, 0, 20%);
+}
+
+.head {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.856);
+    height: 80px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.text3 {
+    color: white;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-width: 1px;
+    padding: 0 10px;
+}
+
+.water {
+    height: 75vh ;
+    width: 900px;
+}
+
+.water-text {
+    text-align: center;
+}
+
+.leaf {
+    height: 75vh;
+    width: 900px;
+}
+
+.leaf-text {
+    text-align: center;
+}
+
+.herb {
+    height: 75vh;
+    width: 900px;
+}
+
+.herb-text {
+    text-align: center;
+}
+
+.goat {
+    height: 75vh;
+    width: 900px;
+}
+
+.goat-text {
+    text-align: center;
+}
+
+.earth {
+    height: 75vh;
+    width: 900px;
+}
+
+.earth-text {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
